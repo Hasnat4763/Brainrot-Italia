@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" class = "scroll-smooth">
+<style>
+.custom-cursor {
+  cursor: url("https://cursors1.totallyfreecursors.com/thumbnails/babyoil.gif"), auto;
+}
+</style>
+<html lang="en" class = "scroll-smooth font-Alumni">
     <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
         <meta charset="UTF-8" />
         <title> Diddy's Baby Oil</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
 
-    <body>
+    <body  class="custom-cursor">
         <div id = "nav" class ="bg-blue-400 fixed top-0 w-[100%] text-[15px] md:text-[30px] ">
         <nav class="flex justify-center md:justify-around md:space-[5px] p-[0.5cm] text-white">
             <div class="font-bold">Diddy's Baby Oil</div>
@@ -15,26 +27,41 @@
                 <li><a href="#home" class="hover:underline">Home</a></li>
                 <li><a href="#about" class="hover:underline">About</a></li>
                 <li><a href="#review" classs="hover:underline">Review</a></li>
-                <li><a href="#contact" class="hover:underline">Contact</a></li>
+                <li><a href="#Products" class="hover:underline">Products</a></li>
+                <li><a href="#FAQ" class="hover:underline">FAQ</a></li>
             </ul>
         </nav>
         </div>
-        <div id="home" class="text-black text-center p-2 bg-blue-100 border-4 rounded-[30px] border-blue-500 mt-[4cm] m-[0.5cm] md:m-[3cm] mb-[6cm] md:mb-[15cm]">
-        <p class="text-blue-600 text-[90px] md:text-[200px] bg-blue-100">Baby Oil</p>
-        <p class="text-[30px] md:text-[50px]">Used by Diddy. Liked By Millions</p>
+        <div id="home" class="text-black text-center p-2  rounded-[30px] mt-[4cm] m-[0.5cm] md:m-[3cm] mb-[6cm] md:mb-[15cm]">
+        <p class="text-blue-600 text-[90px] md:text-[200px]">Baby Oil</p>
+        <s class="text-[30px] md:text-[50px] text-red-500">"Baby oil is only for Kids!</s>
+        <p class="text-[30px] md:text-[50px] text-blue-500 ">Used by Diddy. Liked By Millions</p>
+        <p class="text-[30px] md:text-[50px] text-blue-500">We believe Baby oil is for everyone</p>
         </div>
 
 
 
         
         <div id="about" class="bg-blue-200 rounded-[20px] m-[0.5cm] md:m-[2cm] text-center p-4 border-4 border-blue-500">
-            <p class = "text-[1cm] md:text-[1in] mb-[1cm]">What is Diddy's Baby Oil and What is Diddy Party?</p>
+            <p class = "text-[0.5cm] md:text-[2cm] mb-[1cm]">What is Diddy's Baby Oil and What is Diddy Party?</p>
             <p class ="text-[0.5cm] md:text-[1cm]">
                 This is the famous Diddy's Baby Oil, known for its lubricancy and rizzness. Many famous singers have used this and expressed their love and affection for it.
             </p>
         </div>
         
-        <div id="review" class = "items-center bg-blue-300 rounded-[10px] m-[0.5cm] md:m-[2cm] p-4">
+        
+    <div id="Products" class="text-center m-4 text-2xl">
+        <p class="text-blue-500 border-4 rounded-[40px] bg-blue-100">Our Products</p>
+        <div class="flex justify-between space-x-4 p-2 md:m-[2.5cm]">
+        <img src="diddy.webp" class="rounded-md w-[200px] h-[200px]">
+        <img src="baby-oil.webp" class="rounded-md w-[200px] h-[200px]">
+        </div>
+        <div class="flex justify-center space-x-2 p-2">
+        <p>Call Of Diddy is our FPS game where diddy is the main character and his mission is to oil up Justein Beiber</p>
+        <p>Baby oil is our iconic product without which there is no diddy party. Made by 200 kids who works in the basement</p>
+        </div>
+    </div>
+    <div id="review" class = "items-center bg-blue-300 rounded-[10px] m-[0.5cm] md:m-[2cm] p-4">
             <p  class="text-center text-3xl bg-blue-300">Reviews By Our Precious Users</p>
             <div class="container md:flex justify-around">
             <div class="text-center text-black text-[15px] md:text-[30px] border-2 border-blue-500 rounded-[10px] m-[0.5cm]  bg-blue-100">
@@ -52,18 +79,31 @@
                 <br>
                 <span>-Someone</span>
             </p>
+            </div>
         </div>
-    </div>
-    <div id="samples" class="text-center text-blue-500 bg-blue-300 border-4 rounded-[30px] m-4 text-2xl">
-        <p>Samples of Our Products</p>
-        <div class="flex justify-center space-x-4 p-4">
-        <img src="diddy.webp" class="rounded-md w-[200px] h-[200px]">
-        <img src="baby-oil.webp" class="rounded-md w-[200px] h-[200px]">
+        <div id="FAQ" class="text-left m-[0.5cm] md:m-[2cm] p-4 bg-blue-200 rounded-[20px] border-4 border-blue-500 font-Alumni">
+            <p class="text-center text-3xl">Frequently Asked Questions</p>
+            <p>
+                1. What is Diddy's Baby Oil?
+                <br>
+                -Diddy's Baby Oil is a premium baby oil product that is known for its high quality and effectiveness. It is made by kids working in the basement and used by many famous celebrities in their famous Diddy Parties.
+            </p>
+            <p>
+                2. How can I purchase Diddy's Baby Oil?
+                <br>
+                -You can purchase Diddy's Baby Oil from our official website or from authorized retailers. We offer a variety of sizes and packaging options to suit your needs.
+            </p>
+            <p>
+                3. Where do you guys deliver?
+                <br>
+                -We deliver all over the world, even to Kim Jong Un in North Korea.
+            </p>
         </div>
-    </div>
-        <div id="contact"></div>
 
-        <footer class="text-center">All rights Reserved!</footer>
+        <footer class="text-center">Made for all the Diddy Party Enjoyers!</footer>
     </body>
 
 </html>
+
+
+
